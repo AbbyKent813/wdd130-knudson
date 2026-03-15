@@ -1,0 +1,83 @@
+Personal Site Plan
+Site Name - Game Optimization Hub
+Site Purpose
+    The purpose of this website is to help PC gamers improve their game performance by providing clear optimization guides based on their graphics card. The site will explain which graphics settings affect performance the most and how users can adjust them to increase FPS without sacrificing too much visual quality.
+Target Audience
+    The target audience is PC gamers who want better performance in their games. Many players do not fully understand what each graphics setting does or which settings impact performance the most. This site will help beginner and intermediate gamers quickly find recommended settings for their GPU.
+Elevator Pitch
+    Game Optimization Hub helps gamers get the best performance out of their PC. By selecting their graphics card, users can view recommended settings, optimization guides, and tips to increase FPS and reduce lag in popular games.
+
+
+Site Structure
+Home Page
+    Purpose - The home page introduces the website and explains how users can improve their game performance.
+    Content
+        Hero title: Optimize Your Game Performance
+        Welcome section explaining the website
+        Explanation of how GPU optimization works
+        Section linking to popular GPU optimization guides
+        Section showing the latest optimization tips
+        Main Sections
+        Navigation bar
+        Hero banner
+        Welcome section
+        Popular GPU optimization guide
+        Latest optimization tips
+        Footer
+
+Optimization Guides Page
+    Purpose - This page provides step by step guides showing how to optimize graphics settings for better performance in games.
+    Content
+        Page title: Game Optimization Guide
+        Screenshot of graphics settings
+        Step by step optimization instructions
+        Example steps
+            Turn off motion blur
+            Adjust shadows
+            Lower volumetric lighting
+        Performance Table Example
+            GPU | Recommended Settings
+            RTX 3060 | Medium / High
+            RTX 4070 | High / Ultra
+            RTX 5090 | Ultra
+
+GPU Guide Page
+    Purpose - This page helps users understand how different GPUs perform and what graphics settings they should use for the best performance.
+    Content
+        Explanation of common graphics settings
+        Recommended settings for different GPUs
+        GPU comparison table
+            Example GPUs Included
+                RTX 2060
+                RTX 2070
+                RTX 2080
+                RTX 3060
+                RTX 3070
+                RTX 3080
+                RTX 4060
+                RTX 4070
+                RTX 4080
+                RTX 5060
+                RTX 5070
+                RTX 5080
+                RTX 5090
+        This page will help users quickly find the best settings for their specific graphics card.
+
+Navigation
+    The main navigation menu will include the following pages
+    Home
+    Optimization Guides
+    GPU Guide
+    Footer
+    The footer will include
+    copyright
+    contact
+    social media links
+
+Wireframes
+    Figure 1: Home Page Wireframe
+        Shows the navigation bar, hero banner, welcome section, optimization guides, and latest tips.
+    Figure 2: Optimization Guide Wireframe
+        Shows the page title, graphics settings image, optimization steps, and performance table.
+    Figure 3: GPU Guide Wireframe
+        Shows a table of GPUs from the RTX 20 series through the RTX 50 series with recommended settings.
