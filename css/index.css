@@ -3,14 +3,15 @@
 
 :root {
 
-  --heading-font: "Montserrat";
-  --paragraph-font: "Inter";
+  --heading-font: "Montserrat" "sans-serrif";
+  --paragraph-font: "Inter","sans-seriff";
 
   /* colors */
     --primary: #76B900;
     --secondary: #1A1A1A;
     --background: #FFFFFF;
-    --accent: #E5E5E5;
+    --accent1: #E5E5E5;
+    --accent2: #4A4B49;
 }
 
 
@@ -55,12 +56,7 @@ nav a:hover {
 }
 
 
-/* body */
-body {
-    margin: 0;
-    font-family: var(--paragraph-font), sans-serif;
-    background-color: var(--background);
-}
+/* hero */
 #hero img {
     opacity: .85;
     width: 100%;
@@ -78,6 +74,34 @@ body {
         2px -2px 4px var(--primary),
        -2px -2px 4px var(--primary);
 }
+
+
+/* body */
+body {
+    margin: 0;
+    font-family: var(--paragraph-font);
+    background-color: var(--background);
+    color: var(--background);
+}
+.grid {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+    grid-template-rows: 75px 75px 75px;
+    border: 5px solid #76B900;
+    margin: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    background: linear-gradient(to right, var(--accent2), var(--accent1));
+}
+.title {
+    grid-area: 1/2/2/3;
+    font-size: xx-large;
+}
+.bullet {
+    font-size: x-large;
+}
+.bullet-1 {grid-area: 2/2/3/3;}
+.bullet-2 {grid-area: 3/2/4/3;}
 
 
 /* footer */
