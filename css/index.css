@@ -1,0 +1,90 @@
+/* imports */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+
+  --heading-font: "Montserrat";
+  --paragraph-font: "Inter";
+
+  /* colors */
+    --primary: #76B900;
+    --secondary: #1A1A1A;
+    --background: #FFFFFF;
+    --accent: #E5E5E5;
+}
+
+
+#content {
+    margin: 0 auto;
+    background-color: var(--background);
+    min-height: 100vh;
+}
+
+
+/* header */
+header {
+    display:grid;
+    grid-template-columns: 150px auto;
+    background-color: var(--secondary);
+}
+.logo {
+    height: 80px;
+}
+nav {
+    display: flex;
+    background-color: var(--secondary);
+    font-family: var(--heading-font);
+    font-size: large;
+}
+nav a {
+    text-align: center;
+    background-color: var(--secondary);
+    color: var(--background);
+    text-decoration: none;
+    height: 80px;
+    display: flex;
+    transition: background-color 0.5s;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    border-left: 3px solid var(--primary);
+    font-weight: bold;
+}
+nav a:hover {
+    background-color:var(--primary);
+}
+
+
+/* body */
+body {
+    margin: 0;
+    font-family: var(--paragraph-font), sans-serif;
+    background-color: var(--background);
+}
+
+
+/* footer */
+footer {
+    background-color: var(--secondary);
+    color: var(--background);
+    height: 110px;
+    justify-content: space-around;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1px 1fr 1px 1fr;
+    margin-top: 100px;
+}
+
+footer p {
+    align-self: center;
+    justify-self: center;
+    font-family: var(--heading-font);
+    font-weight: bold;
+
+}
+.divider {
+    background-color: var(--primary);
+    color: var(--primary);
+    height: 80px;
+    width: 3px;
+}
