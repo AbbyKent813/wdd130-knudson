@@ -96,6 +96,11 @@ body {
 .title {
     grid-area: 1/2/2/3;
     font-size: xx-large;
+    color: var(--background);
+}
+.title a {
+    text-decoration: none;
+    color: var(--background);
 }
 .bullet {
     font-size: x-large;
