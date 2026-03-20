@@ -86,7 +86,7 @@ body {
 .grid {
     display: grid;
     grid-template-columns: 400px 1fr;
-    grid-template-rows: 75px 75px 75px;
+    grid-template-rows: 1fr 1fr 1fr;
     border: 5px solid #76B900;
     margin: 50px;
     margin-left: 200px;
