@@ -61,6 +61,35 @@ body {
     font-family: var(--paragraph-font), sans-serif;
     background-color: var(--background);
 }
+#hero-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+#hero-img img{
+    width: auto;
+    height: 100%;
+    margin: 0;
+}
+#hero-text {
+    padding-left: 50px;
+}
+table {
+    padding-left: 50px;
+}
+th {
+    background-color: var(--accent);
+    color: var(--secondary);
+    padding: 10px;
+    border: 1px solid var(--secondary);
+}
+td {
+    padding: 10px 100px;
+    border: 1px solid var(--secondary);
+    font-family: "Inter", sans-serif;
+    width: 40%;
+}
 
 
 /* footer */
@@ -87,10 +116,4 @@ footer p {
     color: var(--primary);
     height: 80px;
     width: 3px;
-}
-
-#hero-img {
-    width: 100%;
-    height: auto;
-    margin-top: 50px;
 }
