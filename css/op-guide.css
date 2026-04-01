@@ -116,18 +116,15 @@ nav a:hover {
 
 .image-box {
     width: 450px;
-    height: 120px;
     border: 2px solid #9a9a9a;
     background-color: #f7f7f7;
     padding: 6px;
     margin: 0 auto;
-    overflow: hidden;
 }
 
 .image-box img {
     width: 100%;
     height: auto;
-    object-fit: cover;
     display: block;
 }
 
