@@ -193,15 +193,18 @@ body {
     border-radius: 2px;
     margin-bottom: 10px;
 }
-
+    
 .image-box {
     border: 2px solid #9a9a9a;
     background-color: #f7f7f7;
     padding: 10px;
+    width: 350px;        /* controls size */
+    margin: 0 auto;      /* centers it */
 }
 
 .image-box img {
-    width: 100%;
+    width: 100%;         /* fits inside box */
+    height: auto;
     display: block;
 }
 
