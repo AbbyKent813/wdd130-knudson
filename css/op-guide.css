@@ -4,7 +4,7 @@
 body {
     margin: 0;
     padding: 14px;
-    background-color: #e3e3e3;
+    background-color: #222;
     font-family: "Inter", Arial, sans-serif;
     color: #222;
 }
@@ -141,7 +141,9 @@ nav a:hover {
     border: 2px solid #9a9a9a;
     background-color: #f7f7f7;
     padding: 6px;
-    margin: 0 auto;
+
+    margin-left: 60px;
+    margin-right: auto;
 }
 
 .image-box img {
@@ -189,8 +191,10 @@ nav a:hover {
 .table-section table {
     border-collapse: collapse;
     width: 430px;
-    margin-left: auto;
-    margin-left: 36px;
+
+    margin-left: 60px;
+    margin-right: auto;
+
     background-color: #efefef;
 }
 
