@@ -93,7 +93,7 @@ nav a:hover {
 .image-section {
     border: 1px solid #9a9a9a;
     background-color: #efefef;
-    margin: 0 0 14px 0;
+    margin-left: 36px;
     padding: 10px 20px 14px 20px;
 }
 
@@ -190,7 +190,7 @@ nav a:hover {
     border-collapse: collapse;
     width: 430px;
     margin-left: auto;
-    margin-right: 36px;
+    margin-left: 36px;
     background-color: #efefef;
 }
 
