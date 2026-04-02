@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Montserrat:wght@600;700&display=swap');
+
 /* PAGE */
 body {
     margin: 0;
@@ -25,6 +27,7 @@ header {
 .logo {
     height: 50px;
     margin-left: 10px;
+    display: block;
 }
 
 nav {
@@ -82,7 +85,7 @@ nav a:hover {
 /* DIVIDER */
 .divider {
     border-top: 2px dashed #b7b7b7;
-    margin: 18px 0;
+    margin: 12px 20px;
 }
 
 /* IMAGE SECTION */
@@ -146,14 +149,12 @@ nav a:hover {
     display: block;
 }
 
-/* TEXT + TABLE */
-.text-section,
-.table-section {
+/* TEXT */
+.text-section {
     padding: 0 20px;
 }
 
-.text-section h2,
-.table-section h2 {
+.text-section h2 {
     margin: 0 0 12px 0;
     font-family: "Montserrat", Arial, sans-serif;
     font-size: 16px;
@@ -169,57 +170,72 @@ nav a:hover {
     font-weight: 600;
 }
 
-/* TABLE */
+/* TABLE SECTION */
+.table-section {
+    padding: 0 36px 0 36px;
+    margin-top: 6px;
+    margin-bottom: 12px;
+}
+
+.table-section h2 {
+    margin: 0 0 14px 0;
+    font-family: "Montserrat", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
 .table-section table {
     border-collapse: collapse;
-    width: 60%;
-    margin: 0 auto 10px auto;
-    background-color: black;
+    width: 430px;
+    margin-left: auto;
+    margin-right: 36px;
+    background-color: #efefef;
 }
 
 .table-section th,
 .table-section td {
-    border: 1px solid white;
-    padding: 8px 12px;
-    text-align: left;
+    border: 1px solid #7d7d7d;
+    padding: 5px 12px;
+    text-align: center;
     font-size: 14px;
-    color: #39ff14;
+    color: #222;
 }
 
 .table-section th {
     font-family: "Montserrat", Arial, sans-serif;
     font-weight: 700;
-    background-color: black;
+    background-color: #efefef;
 }
 
 .table-section tr:nth-child(even) {
-    background-color: #111;
+    background-color: #efefef;
 }
 
 /* FOOTER */
 footer {
-    margin-top: 24px;
+    margin: 10px 20px 0 20px;
     background-color: #141414;
     color: white;
-    height: 70px;
+    height: 42px;
     display: grid;
     grid-template-columns: 1fr 2px 1fr 2px 1fr;
     align-items: center;
     justify-items: center;
+    border: 1px solid #8a8a8a;
 }
 
-footer p {
-    margin: 0;
+.footer-item {
     font-family: "Montserrat", Arial, sans-serif;
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 600;
+    color: white;
+    text-transform: lowercase;
 }
 
-footer .divider {
+.footer-divider {
     width: 2px;
-    height: 45px;
-    margin: 0;
-    border: none;
+    height: 24px;
     background-color: #76B900;
 }
 
@@ -244,7 +260,6 @@ img {
 
     .logo {
         margin: 10px auto;
-        display: block;
     }
 
     nav {
@@ -272,11 +287,17 @@ img {
 
     .table-section {
         overflow-x: auto;
+        padding: 0 14px;
     }
 
     .table-section table {
         width: 100%;
         min-width: 320px;
+        margin-right: 0;
+    }
+
+    .text-section {
+        padding: 0 14px;
     }
 
     footer {
@@ -286,7 +307,7 @@ img {
         padding: 16px 0;
     }
 
-    footer .divider {
+    .footer-divider {
         display: none;
     }
 }
