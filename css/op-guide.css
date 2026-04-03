@@ -1,12 +1,10 @@
 html {
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 75%;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Montserrat:wght@600;700&display=swap');
-
-/* PAGE */
+/*Page*/
 body {
     margin: 0;
     padding: 0;
@@ -16,7 +14,8 @@ body {
 }
 
 #content {
-    width: 100%;
+    width: 100vw;
+    max-width: none;
     margin: 0;
     padding: 0;
     background-color: #efefef;
@@ -24,7 +23,7 @@ body {
     box-sizing: border-box;
 }
 
-/* HEADER */
+/* Header */
 header {
     display: grid;
     grid-template-columns: 150px auto;
@@ -35,13 +34,11 @@ header {
     height: 80px;
 }
 
-/* NAV */
 nav {
     display: flex;
     background-color: black;
-    font-family: "Montserrat", Arial, sans-serif;
-    font-size: 16px;
-    border-left: 2px solid #76B900;
+    font-family: sans-serif;
+    font-size: large;
 }
 
 nav a {
@@ -55,14 +52,18 @@ nav a {
     flex: 1;
     justify-content: center;
     align-items: center;
+    border-left: 3px solid;
+    font-family: "Monserrat", Arial, ;
     border-left: 2px solid #76B900;
-    font-family: "Montserrat", Arial, sans-serif;
     font-weight: bold;
+}
+
+nav a:first-child {
+    border-right-color: #76B900;
 }
 
 nav a:hover {
     background-color: #76B900;
-    color: white;
 }
 
 /* TITLE BOX */
@@ -101,6 +102,7 @@ nav a:hover {
     background-color: black;
     margin: 0 0 14px 0;
     padding: 10px 20px 14px 20px;
+    justify-content: center;
 }
 
 .image-bar {
@@ -143,11 +145,13 @@ nav a:hover {
 }
 
 .image-box {
-    width: 700px;
-    max-width: 90%;
+    width: 600px;
+    height: auto;
+
     border: 2px solid #9a9a9a;
-    background-color: #f7f7f7;
-    padding: 10px;
+    background-color: #76B900;
+    padding: 8px;
+
     margin: 0 auto;
 }
 
@@ -176,6 +180,7 @@ nav a:hover {
     text-align: left;
     margin: 0 auto 20px auto;
     padding-left: 20px;
+
     font-size: 16px;
     line-height: 1.7;
     font-weight: 600;
@@ -198,20 +203,23 @@ nav a:hover {
 
 .table-section table {
     border-collapse: collapse;
-    width: 600px;
-    max-width: 90%;
-    margin: 0 auto;
+    width: 425px;
+    /* wireframe-like width */
+    margin-left: 48px;
+    /* places it like the wireframe */
+    margin-right: 0;
     background-color: #efefef;
 }
 
 .table-section th,
 .table-section td {
     border: 1px solid #7d7d7d;
-    padding: 6px 12px;
+    padding: 3px 10px;
+    /* shorter rows like wireframe */
     text-align: center;
-    font-size: 15px;
+    font-size: 14px;
     color: #222;
-    line-height: 1.2;
+    line-height: 1.1;
 }
 
 .table-section th {
@@ -224,18 +232,19 @@ nav a:hover {
     background-color: #efefef;
 }
 
-/* FOOTER */
 footer {
     background-color: #141414;
     color: white;
     height: 80px;
+
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+
     margin-top: 20px;
 }
 
-/* FOOTER TEXT */
+/* TEXT */
 .footer-item {
     font-family: "Montserrat", Arial, sans-serif;
     font-size: 16px;
@@ -243,7 +252,7 @@ footer {
     text-align: center;
 }
 
-/* FOOTER DIVIDER */
+/* GREEN DIVIDER */
 .footer-divider {
     width: 2px;
     height: 40px;
@@ -271,20 +280,15 @@ img {
 
     .logo {
         margin: 10px auto;
-        display: block;
     }
 
     nav {
         flex-direction: column;
         height: auto;
-        border-left: none;
     }
 
     nav a {
-        border-left: none;
-        border-top: 2px solid #76B900;
-        padding: 14px 0;
-        height: auto;
+        border-top: 2px solid #76B900 padding: 14px 0;
     }
 
     .title-box {
@@ -296,8 +300,7 @@ img {
     }
 
     .image-box {
-        width: 95%;
-        max-width: 95%;
+        width: 85%;
     }
 
     .table-section {
@@ -308,6 +311,7 @@ img {
     .table-section table {
         width: 100%;
         min-width: 320px;
+        margin-right: 0;
     }
 
     .text-section {
@@ -315,7 +319,7 @@ img {
     }
 
     footer {
-        flex-direction: column;
+        grid-template-columns: 1fr;
         gap: 8px;
         height: auto;
         padding: 16px 0;
