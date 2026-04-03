@@ -54,7 +54,12 @@ nav a {
     align-items: center;
     border-left: 3px solid;
     font-family: "Monserrat", Arial, ;
-    border-left: 2px solid #76B900 font-weight: bold;
+    border-left: 2px solid #76B900;
+    font-weight: bold;
+}
+
+nav a:first-child {
+    border-right-color: #76B900;
 }
 
 nav a:hover {
@@ -283,8 +288,7 @@ img {
     }
 
     nav a {
-        border-top: 2px solid #76B900;
-        padding: 14px 0;
+        border-top: 2px solid #76B900 padding: 14px 0;
     }
 
     .title-box {
