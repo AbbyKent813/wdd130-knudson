@@ -30,15 +30,6 @@ header {
     background-color: black;
 }
 
-
-
-.header-divider {
-    width: 2px;
-    height: 40px;
-    background-color: #76B900;
-}
-
-
 .logo {
     height: 80px;
 }
@@ -148,13 +139,14 @@ nav a:hover {
 }
 
 .image-box {
-    width: 350px;
+    width: 500px;
+    height: auto;
+
     border: 2px solid #9a9a9a;
     background-color: #f7f7f7;
-    padding: 6px;
+    padding: 8px;
 
-    margin-left: 60px;
-    margin-right: 0;
+    margin: 0 auto;
 }
 
 .image-box img {
@@ -165,6 +157,7 @@ nav a:hover {
 
 /* TEXT */
 .text-section {
+    text-align: center;
     padding: 0 20px;
 }
 
@@ -177,8 +170,11 @@ nav a:hover {
 }
 
 .text-section ol {
-    margin: 0 0 20px 0;
-    padding-left: 28px;
+    display: inline-block;
+    text-align: left;
+    margin: 0 auto 20px auto;
+    padding-left: 20px;
+
     font-size: 16px;
     line-height: 1.7;
     font-weight: 600;
