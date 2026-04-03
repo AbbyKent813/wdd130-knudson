@@ -43,23 +43,21 @@ nav {
 }
 
 nav a {
-    text-align: center;
-    background-color: #141414;
-    color: white;
-    text-decoration: none;
-    justify-content: center;
-    height: 80px;
-    display: flex;
-    transition: background-color 0.5s;
     flex: 1;
+    display: flex;
     justify-content: center;
     align-items: center;
-    border-left: 3px solid;
-    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #141414;
+    border-left: 2px solid #76B900;
 }
 
 nav a:hover {
     background-color: #76B900;
+    color: #efefef
 }
 
 /* TITLE BOX */
