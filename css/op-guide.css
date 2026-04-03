@@ -26,44 +26,38 @@ body {
 /* HEADER */
 header {
     display: grid;
-    grid-template-columns: 120px 1fr;
-    align-items: center;
-    background-color: #141414;
+    grid-template-columns: 150px auto;
+    background-color: var(--secondary);
 }
 
 .logo {
-    height: 50px;
-    margin-left: 10px;
-    display: block;
+    height: 80px;
 }
 
 nav {
     display: flex;
-    height: 70px;
-    font-family: "Montserrat", Arial, sans-serif;
-    border-left: 2px solid #76B900;
+    background-color: var(--secondary);
+    font-family: var(--heading-font);
+    font-size: large;
 }
 
 nav a {
-    flex: 1;
+    text-align: center;
+    background-color: var(--secondary);
+    color: var(--background);
+    text-decoration: none;
+    height: 80px;
     display: flex;
+    transition: background-color 0.5s;
+    flex: 1;
     justify-content: center;
     align-items: center;
-    color: white;
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: 600;
-    background-color: #141414;
-    border-left: 2px solid #76B900;
-}
-
-nav a:first-child {
-    border-left: none;
+    border-left: 3px solid var(--primary);
+    font-weight: bold;
 }
 
 nav a:hover {
-    background-color: #76B900;
-    color: white;
+    background-color: var(--primary);
 }
 
 /* TITLE BOX */
