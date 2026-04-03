@@ -181,7 +181,7 @@ nav a:hover {
 
 /* TABLE SECTION */
 .table-section {
-    padding: 0 36px 0 36px;
+    padding: 0 36px;
     margin-top: 6px;
     margin-bottom: 12px;
 }
@@ -196,21 +196,23 @@ nav a:hover {
 
 .table-section table {
     border-collapse: collapse;
-    width: 430px;
-
-    margin-left: 60px;
-    margin-right: auto;
-
+    width: 425px;
+    /* wireframe-like width */
+    margin-left: 48px;
+    /* places it like the wireframe */
+    margin-right: 0;
     background-color: #efefef;
 }
 
 .table-section th,
 .table-section td {
     border: 1px solid #7d7d7d;
-    padding: 5px 12px;
+    padding: 3px 10px;
+    /* shorter rows like wireframe */
     text-align: center;
     font-size: 14px;
     color: #222;
+    line-height: 1.1;
 }
 
 .table-section th {
