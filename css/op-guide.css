@@ -1,11 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Montserrat:wght@600;700&display=swap');
+
 html {
     margin: 0;
     padding: 0;
     width: 100%;
-
 }
 
-/*Page*/
+/* PAGE */
 body {
     margin: 0;
     padding: 0;
@@ -15,8 +16,7 @@ body {
 }
 
 #content {
-    width: 100vw;
-    max-width: none;
+    width: 100%;
     margin: 0;
     padding: 0;
     background-color: #efefef;
@@ -24,7 +24,7 @@ body {
     box-sizing: border-box;
 }
 
-/* Header */
+/* HEADER */
 header {
     display: grid;
     grid-template-columns: 150px auto;
@@ -33,13 +33,16 @@ header {
 
 .logo {
     height: 80px;
+    display: block;
 }
 
+/* NAV */
 nav {
     display: flex;
     background-color: black;
-    font-family: sans-serif;
-    font-size: large;
+    font-family: "Montserrat", Arial, sans-serif;
+    font-size: 16px;
+    border-left: 2px solid #76B900;
 }
 
 nav a {
@@ -53,18 +56,14 @@ nav a {
     flex: 1;
     justify-content: center;
     align-items: center;
-    border-left: 3px solid;
-    font-family: "Monserrat", Arial, ;
     border-left: 2px solid #76B900;
+    font-family: "Montserrat", Arial, sans-serif;
     font-weight: bold;
-}
-
-nav a:first-child {
-    border-right-color: #76B900;
 }
 
 nav a:hover {
     background-color: #76B900;
+    color: white;
 }
 
 /* TITLE BOX */
@@ -103,7 +102,6 @@ nav a:hover {
     background-color: black;
     margin: 0 0 14px 0;
     padding: 10px 20px 14px 20px;
-    justify-content: center;
 }
 
 .image-bar {
@@ -146,14 +144,12 @@ nav a:hover {
 }
 
 .image-box {
-    width: 75%px;
+    width: 75%;
+    max-width: 1000px;
     height: auto;
-    ma-xwidth: 1000px;
-
     border: 2px solid #9a9a9a;
     background-color: #76B900;
     padding: 8px;
-
     margin: 0 auto;
 }
 
@@ -182,7 +178,6 @@ nav a:hover {
     text-align: left;
     margin: 0 auto 20px auto;
     padding-left: 20px;
-
     font-size: 16px;
     line-height: 1.7;
     font-weight: 600;
@@ -206,50 +201,44 @@ nav a:hover {
 .table-section table {
     width: 90%;
     max-width: 1000px;
-
     margin-left: 0;
     margin-right: auto;
-
     border-collapse: collapse;
-
     background-color: #efefef;
     border: 2px solid #76B900;
 }
 
 .table-section th,
 .table-section td {
-    border: 1px solid #7d7d7d;
-    padding: 3px 10px;
-    /* shorter rows like wireframe */
+    border: 1px solid #76B900;
+    padding: 6px 12px;
     text-align: center;
     font-size: 14px;
     color: #222;
-    line-height: 1.1;
+    line-height: 1.2;
+    background-color: #efefef;
 }
 
 .table-section th {
     font-family: "Montserrat", Arial, sans-serif;
     font-weight: 700;
-    background-color: #efefef;
 }
 
 .table-section tr:nth-child(even) {
     background-color: #efefef;
 }
 
+/* FOOTER */
 footer {
     background-color: #141414;
     color: white;
     height: 80px;
-
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-
     margin-top: 20px;
 }
 
-/* TEXT */
 .footer-item {
     font-family: "Montserrat", Arial, sans-serif;
     font-size: 16px;
@@ -257,7 +246,6 @@ footer {
     text-align: center;
 }
 
-/* GREEN DIVIDER */
 .footer-divider {
     width: 2px;
     height: 40px;
@@ -290,10 +278,14 @@ img {
     nav {
         flex-direction: column;
         height: auto;
+        border-left: none;
     }
 
     nav a {
-        border-top: 2px solid #76B900 padding: 14px 0;
+        border-left: none;
+        border-top: 2px solid #76B900;
+        padding: 14px 0;
+        height: auto;
     }
 
     .title-box {
@@ -324,7 +316,7 @@ img {
     }
 
     footer {
-        grid-template-columns: 1fr;
+        flex-direction: column;
         gap: 8px;
         height: auto;
         padding: 16px 0;
@@ -333,3 +325,4 @@ img {
     .footer-divider {
         display: none;
     }
+}
