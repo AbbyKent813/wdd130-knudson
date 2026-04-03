@@ -30,6 +30,12 @@ header {
     background-color: black;
 }
 
+.header-divider {
+    width: 2px;
+    height: 40px;
+    background-color: #76B900;
+}
+
 .logo {
     height: 80px;
 }
