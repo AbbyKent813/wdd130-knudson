@@ -30,11 +30,19 @@ header {
     background-color: black;
 }
 
+.header-item {
+    font-family: "Montserrat", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+
 .header-divider {
     width: 2px;
     height: 40px;
     background-color: #76B900;
 }
+
 
 .logo {
     height: 80px;
