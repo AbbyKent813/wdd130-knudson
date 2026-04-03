@@ -23,41 +23,41 @@ body {
     box-sizing: border-box;
 }
 
-/* HEADER */
+/* Header */
 header {
     display: grid;
-    grid-template-columns: 120px 1fr;
-    align-items: center;
-    background-color: #141414;
+    grid-template-columns: 150px auto;
+    background-color: black;
 }
 
 .logo {
     height: 80px;
-    margin-left: 10px;
 }
 
 nav {
     display: flex;
-    height: 70px;
-    font-family: "Monserrat", arial, sans-serif
+    background-color: black;
+    font-family: sans-serif;
+    font-size: large;
 }
 
 nav a {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    background-color: #141414;
     color: white;
     text-decoration: none;
-    font-size: 16px;
-    font-weight: 600;
-    background-color: #141414;
-    border-left: 2px solid #76B900;
+    height: 80px;
+    display: flex;
+    transition: background-color 0.5s;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    border-left: 3px solid "Monserrat", Arial, ;
+    font-weight: bold;
 }
 
 nav a:hover {
     background-color: #76B900;
-    color: #efefef
 }
 
 /* TITLE BOX */
