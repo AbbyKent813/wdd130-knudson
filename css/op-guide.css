@@ -52,8 +52,9 @@ nav a {
     flex: 1;
     justify-content: center;
     align-items: center;
-    border-left: 3px solid "Monserrat", Arial, ;
-    font-weight: bold;
+    border-left: 3px solid;
+    font-family: "Monserrat", Arial, ;
+    border-left: 2px solid #76B900 font-weight: bold;
 }
 
 nav a:hover {
@@ -282,7 +283,6 @@ img {
     }
 
     nav a {
-        border-left: none;
         border-top: 2px solid #76B900;
         padding: 14px 0;
     }
