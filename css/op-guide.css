@@ -146,9 +146,9 @@ nav a:hover {
 }
 
 .image-box {
-    width: 90%px;
+    width: 75%px;
     height: auto;
-    ma-xwidth: 1200px;
+    ma-xwidth: 1000px;
 
     border: 2px solid #9a9a9a;
     background-color: #76B900;
