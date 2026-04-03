@@ -1,12 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Montserrat:wght@600;700&display=swap');
-
 /* PAGE */
 body {
     margin: 0;
-    padding: 14px;
+    padding: 0;
+    /* ✅ removes side gaps */
     background-color: #222;
     font-family: "Inter", Arial, sans-serif;
-    color: #222;
 }
 
 #content {
