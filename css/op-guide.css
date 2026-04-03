@@ -1,19 +1,26 @@
-/* PAGE */
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+/*Page*/
 body {
     margin: 0;
     padding: 0;
-    /* ✅ removes side gaps */
     background-color: #222;
     font-family: "Inter", Arial, sans-serif;
+    color: #222;
 }
 
 #content {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    /* ✅ THIS centers the page */
+    width: 100vw;
+    max-width: none;
+    margin: 0;
+    padding: 0;
     background-color: #efefef;
     border: 1px solid #777;
+    box-sizing: border-box;
 }
 
 /* HEADER */
