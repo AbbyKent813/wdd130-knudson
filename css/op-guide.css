@@ -26,38 +26,40 @@ body {
 /* HEADER */
 header {
     display: grid;
-    grid-template-columns: 150px auto;
-    background-color: var(--secondary);
+    grid-template-columns: 120px 1fr;
+    align-items: center;
+    background-color: #141414;
 }
 
 .logo {
     height: 80px;
+    margin-left: 10px;
 }
 
 nav {
     display: flex;
-    background-color: var(--secondary);
-    font-family: var(--heading-font);
-    font-size: large;
+    height: 70px;
+    font-family: "Monserrat", arial, sans-serif
 }
 
 nav a {
     text-align: center;
-    background-color: var(--secondary);
-    color: var(--background);
+    background-color: #141414;
+    color: white;
     text-decoration: none;
+    justify-content: center;
     height: 80px;
     display: flex;
     transition: background-color 0.5s;
     flex: 1;
     justify-content: center;
     align-items: center;
-    border-left: 3px solid var(--primary);
+    border-left: 3px solid;
     font-weight: bold;
 }
 
 nav a:hover {
-    background-color: var(--primary);
+    background-color: #76B900;
 }
 
 /* TITLE BOX */
