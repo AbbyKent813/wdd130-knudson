@@ -54,22 +54,41 @@ nav a:hover {
     background-color:var(--primary);
 }
 
-
 /* body */
 body {
     margin: 0;
     font-family: var(--paragraph-font), sans-serif;
     background-color: var(--background);
 }
+.title-box {
+    width: 320px;
+    margin: 12px auto 10px auto;
+    border: 2px solid black;
+    text-align: center;
+    background-color: #efefef;
+    padding: 10px 12px;
+}
+
+.page-label {
+    margin: 0 0 3px 0;
+    font-family: "Montserrat", Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+.title-box h1 {
+    margin: 0;
+    font-family: "Montserrat", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
 #hero-img {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
 }
 #hero-img img{
-    width: auto;
-    height: 100%;
+    width: 65%;
+    height: auto;
     margin: 0;
 }
 #hero-text {
@@ -88,7 +107,8 @@ td {
     padding: 10px 100px;
     border: 1px solid var(--secondary);
     font-family: "Inter", sans-serif;
-    width: 40%;
+    width: 300px;
+    text-align: center;
 }
 
 
