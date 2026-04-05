@@ -93,10 +93,19 @@ body {
     margin-right: 200px;
     background: linear-gradient(to right, var(--accent2), var(--accent1));
 }
+.picture {
+    grid-area: 1/1/4/2;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    align-self: center;
+    justify-self: center;
+}
 .title {
     grid-area: 1/2/2/3;
     font-size: xx-large;
     color: var(--background);
+    margin-left: 20px;
 }
 .title a {
     text-decoration: none;
@@ -104,7 +113,8 @@ body {
 }
 .bullet {
     font-size: x-large;
-}
+    margin-left: 40px;
+}\\
 .bullet-1 {grid-area: 2/2/3/3;}
 .bullet-2 {grid-area: 3/2/4/3;}
 
